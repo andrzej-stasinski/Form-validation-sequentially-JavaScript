@@ -1,0 +1,17 @@
+#forma {
+    border:1px solid #333;background-color: #fafafa; width: 500px;margin:50px;
+}
+#contactform {margin: 0;padding: 20px;}
+#contactform *{font-family: Arial, sans-serif;font-size: 18px;	}
+#contactform ol{margin: 0;padding: 0;list-style-type: none;}
+#contactform li{margin: 0 0 0 0; padding: 5px;}
+#contactform li.buttons{}
+#contactform label{margin: 0;width: 150px;display:block;float: left;}
+#contactform {}
+#contactform input.text{width: 280px;border:1px solid #d6d6d6;padding: 5px 5px;color:#999;}
+#contactform textarea{width: 280px;border:1px solid #d6d6d6;padding: 5px 5px;color:#999;}
+#contactform li:last-child {padding-left: 150px;}
+#contactform li .buttons {padding: 5px 10px;background-color: sienna;width:100px;}
+.error {
+    color:red;height: 20px;margin-left: 150px;margin-top: 5px;
+}

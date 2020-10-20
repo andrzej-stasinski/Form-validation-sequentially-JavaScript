@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form valid</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js">
+
+	</script>
+</head>
+<body>
+	<h2>Form validation</h2>
+	<div id="forma">
+
+			<form action="valid_ok.html" method="get" id="contactform">
+				<ol>
+					<li>
+						<label for="name">Imię *</label>
+						<input type="text" name="name" id="name" class="text">
+						<div id="iname" class="error"></div>
+					</li>
+					<li>
+						<label for="email">Email *</label>
+						<input type="text" name="email" id="email" class="text">
+						<div id="iemail" class="error"></div>
+					</li>
+					<li>
+						<label for="ilosc">Ilość *</label>
+						<input type="text" name="ilosc" id="ilosc" class="text">
+						<div id="iilosc" class="error"></div>
+					</li>
+					<li>
+						<label for="message">Wiadokość *</label>
+						<textarea type="text" name="message" id="message"></textarea>
+						<div id="imessage" class="error"></div>
+					</li>					
+					<li>
+						<input type="submit" value="Prześlij" class="buttons"/>
+						<input type="reset" value="Kasuj" class="buttons"/>
+					</li>
+				</ol>
+			</form>
+	
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>valid 2</title>
+	<style>
+	.error {
+		color:red;height: 20px;
+	}	
+	</style>
+	<script src="valid2.js">
+
+	</script>
+</head>
+<body>
+	<h3>Form valid 2 - spr czy puste pole, email, number</h3>
+	<div></div>
+	<table border="1">
+		<form action="valid_ok.html" method="get" id="contactform">
+			<tr><td colspan="2" align="center">Form Name</td></tr>
+			<tr>
+				<td><label for="name">Imię</label></td>
+				<td>
+					<input type="text" name="name" id="name">
+					<div id="iname" class="error"></div>
+				</td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td>
+					<input type="text" name="email" id="email">
+					<div id="iemail" class="error"></div>
+				</td>
+			</tr>
+			<tr>
+				<td>Ilość</td>
+				<td>
+					<input type="text" name="ilosc" id="ilosc">
+					<div id="iilosc" class="error"></div>
+				</td>
+			</tr>			
+			<tr>
+				<td>Wiadokość</td>
+				<td><textarea type="text" name="message" id="message"></textarea>
+					<div id="imessage" class="error"></div>
+				</td>
+			</tr>			
+			<tr>
+				<td colspan="2" align="center">
+				<input type="submit" name="submit" value="Wyślij formularz"/>
+				<input type="reset" value="Reset" />
+				</td>
+			</tr>						
+		</form>
+	</table>
+</body>
+</html>
